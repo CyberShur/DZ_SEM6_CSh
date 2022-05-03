@@ -3,7 +3,8 @@
 -1, -7, 567, 89, 223-> 3
 */
 
-Console.Write("Сколько числел вы хотели бы проверить? Введите количество: ");
+Console.WriteLine("Сколько числел вы хотели бы проверить?");
+Console.Write("Введите количество: ");
 int length = Convert.ToInt32(Console.ReadLine());
 
 int[] numbers = new int[length];
